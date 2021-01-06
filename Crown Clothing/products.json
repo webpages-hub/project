@@ -1,0 +1,336 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Brown Brim",
+        "price": 25.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/brown-brim.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Blue Beanie",
+        "price": 18.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/blue-beanie.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Brown Cowboy",
+        "price": 35.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/brown-cowboy.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Grey Brim",
+        "price": 25.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/grey-brim.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Adidas NMD",
+        "price": 220.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/adidas-nmd.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Adidas Yeezy",
+        "price": 280.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/yeezy.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "Black Converse",
+        "price": 110.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/black-converse.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "Nike White AirForce",
+        "price": 160.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/white-nike-high-tops.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "Black Jean Shearling",
+        "price": 125.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/black-shearling.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "Blue Jean Jacket",
+        "price": 90.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/blue-jean-jacket.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "Grey Jean Jacket",
+        "price": 90.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/grey-jean-jacket.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": "Brown Shearling",
+        "price": 165.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/brown-shearling.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "13"
+      },
+      "fields": {
+        "title": "Blue Tanktop",
+        "price": 25.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/blue-tank.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "14"
+      },
+      "fields": {
+        "title": "Floral Blouse",
+        "price": 20.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/floral-blouse.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "15"
+      },
+      "fields": {
+        "title": "Floral Dress",
+        "price": 80.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/floral-skirt.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "16"
+      },
+      "fields": {
+        "title": "Red Dots Dress",
+        "price": 80.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/red-polka-dot-dress.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "17"
+      },
+      "fields": {
+        "title": "Camo Down Vest",
+        "price": 325.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/camo-vest.png.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "18"
+      },
+      "fields": {
+        "title": "Floral T-Shirt",
+        "price": 20.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/floral-shirt.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "19"
+      },
+      "fields": {
+        "title": "Black % White LongSleeve",
+        "price": 80.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/long-sleeve.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": {
+        "id": "20"
+      },
+      "fields": {
+        "title": "Pink T-Shirt",
+        "price": 110.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/pink-shirt.png"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
