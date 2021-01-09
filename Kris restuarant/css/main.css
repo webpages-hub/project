@@ -809,7 +809,7 @@ form{
 	padding: 10px 0;
 }
 .carts-container ion-icon{
-    color: rgb(128,0,128);
+    color: var(--cart-color);
     font-size: 120%;
 }
 .basketTotalTitle{
