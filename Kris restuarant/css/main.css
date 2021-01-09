@@ -436,14 +436,6 @@ img{
     19% { opacity: 0 }
     100% { opacity: 0 }
 }
-/* @media screen and (max-width: 1140px) { 
-    .bg__image
- li div h3 { font-size: 140px }
-}
-@media screen and (max-width: 600px) { 
-    .bg__image
- li div h3 { font-size: 80px }
-} */
 
 
 hr{
@@ -743,6 +735,9 @@ form{
     color: var(--cart-color);
 }
 /* CARTS CONTAINER STYLING */
+.cart{
+	color: var(--text-color);
+}
 .carts-container{
     max-width: 95%;
     width: 95%;
@@ -809,7 +804,7 @@ form{
 	padding: 10px 0;
 }
 .carts-container ion-icon{
-    color: var(--cart-color);
+    color: rgb(128,0,128);
     font-size: 120%;
 }
 .basketTotalTitle{
