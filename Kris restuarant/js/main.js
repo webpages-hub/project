@@ -87,7 +87,7 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`.footer__content, .places, .reserve__container`, {
+sr.reveal(`.services__container, .footer__content, .places, .reserve__container`, {
     interval: 200
 });
 
