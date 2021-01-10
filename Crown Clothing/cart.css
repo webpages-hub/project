@@ -203,7 +203,7 @@ nav ul li a {
 
 .btn-purchase {
   display: block;
-  margin: 40px auto 80px auto;
+  margin: auto;
   font-size: 1.75em;
   padding: 1rem 3rem;
   text-transform: uppercase;
@@ -245,7 +245,7 @@ padding-bottom: 100px;
 flex-wrap: wrap;
 display: flex;
 }
-.products{	
+.cart_products{	
   width: 100%;
 display: flex;
 flex-wrap: wrap;
@@ -260,29 +260,29 @@ margin: 0 auto;
 .product-title{
 width: 45%;
 }
-.products img{
+.cart_products img{
   width: 70%;
   height: 150px;
   border-radius: 7px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.price {
+.cart_price {
 width: 28%;
 display: flex;
 align-items: center;
 box-shadow: 0px 8px 5px -6px rgba(0,0,0,.4);
 }
-.quantity{
+.cart_quantity{
 width: 25%;
 display: flex;
 align-items: center;
 box-shadow: 0px 8px 5px -6px rgba(0,0,0,.4);
 }
-.total{
+.cart_total{
   display: none;
 }
-.product{
+.cart_product{
 width: 45%;
 display: flex; 
 flex-direction: column;
@@ -296,7 +296,7 @@ box-shadow: 0px 8px 5px -6px rgba(0,0,0,.4);
   left:0.5rem;
   font-size: 110%;
 }
-.basketTotalContainer{
+.cartTotalContainer{
 display: flex;
 justify-content: flex-end; 
 width: 80%;
@@ -306,10 +306,10 @@ padding: 10px 0;
   color: var(--primaryColor);
   font-size: 120%;
 }
-.basketTotalTitle{
+.cartTotalTitle{
 width: 30%;
 }
-.basketTotal{
+.cartTotal{
 width: 10%;
 }
 .hiddenTag{
@@ -323,25 +323,25 @@ width: 10%;
   .carts-container{
     width: 80%;
   }
-  .price{
+  .cart_price{
     width: 15%;
   }
-  .quantity{
+  .cart_quantity{
     width: 25%;
   }
-  .basketTotalContainer{
+  .cartTotalContainer{
     width: 95%;
   }
-  .total{
+  .cart_total{
   width: 10%;
   display: flex;
   align-items: center; 
   box-shadow: 0px 8px 5px -6px rgba(0,0,0,.4);
  }
- .products img{
+ .cart_products img{
     width: 30%;
   }
- .product{
+ .cart_product{
     width: 45%;
   }
   .product-title{
@@ -352,19 +352,19 @@ width: 10%;
    }
 }
 @media screen and (min-width: 960px){
-  .product img{
+  .cart_product img{
     width: 25%;
 }
-.quantity{
+.cart_quantity{
      width: 30%;
 }
-.total{ 
+.cart_total{ 
      width: 10%;
 }
-.basketTotalContainer{
+.cartTotalContainer{
     width: 100%;
 }
-.product{
+.cart_product{
     flex-direction: row;
 }
 .remove{
