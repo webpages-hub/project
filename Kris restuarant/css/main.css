@@ -700,7 +700,7 @@ form{
 .menu__img{
     width: 70%;
     height: 40vh;
-    align-self: center;
+    object-fit: cover;
     margin-bottom: var(--mb-2);
 }
 .menu__name, .menu__price{
