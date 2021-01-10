@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
     <link
@@ -62,7 +61,7 @@
   
   
             <div class="services__container bd-grid">
-               <div class="services__group">
+               <div class="services__group" data-tilt>
                 <div class="services__content">
                   <img class="services__img" src="img/jed-owen-O4wSmNb6w18-unsplash.jpg" alt="meals"> 
                   <div class="services__text">
@@ -73,7 +72,7 @@
               </div>
 
                 <div class="services__content">
-                  <div class="services__group">
+                  <div class="services__group" data-tilt>
                   <img class="services__img" src="img/gift-habeshaw-44XRowmXF24-unsplash.jpg" alt="reservations"> 
                   <div class="services__text">
                     <h3 class="services__title">Reservations</h3>
@@ -83,7 +82,7 @@
                 </div>
 
                 <div class="services__content">
-                  <div class="services__group">
+                  <div class="services__group" data-tilt>
                   <img class="services__img" src="img/super-straho-DZe1jK6pk5c-unsplash.jpg" alt="delivery"> 
                     <div class="services__text">
                     <h3 class="services__title">Delivery</h3>
@@ -175,10 +174,11 @@
       </div>
     </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="js/main.js"></script>
-  
-
-    <script src="js/cart.js"></script>
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+      <script src="js/tilt.js"></script>
+    <script defer src="js/cart.js"></script>
 </body>
 </html>
