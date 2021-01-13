@@ -477,7 +477,7 @@ h2,h3{
     }
     .waves__container > svg{
         display: block;
-        animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        animation: animateWave 5000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
         transform-origin: bottom;
     }
     @keyframes animateWave {
