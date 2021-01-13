@@ -462,6 +462,34 @@ h2,h3{
         border:1px solid rgb(134, 102, 31);
         transition: .2s ease-in-out;
     }
+    .waves__container{
+        background:#000;
+        position: relative;
+        overflow: hidden;
+        color: rgb(192,192,192);
+        text-align: center;
+    }
+    .waves__container p{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+    }
+    .waves__container > svg{
+        display: block;
+        animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        transform-origin: bottom;
+    }
+    @keyframes animateWave {
+        0% {
+          transform: scale(1,0);
+        }
+        100% {
+          transform: scale(1,1);
+        }
+      }
+    
+    
     @media screen and (min-width:768px){
         body{
           margin: 0;
