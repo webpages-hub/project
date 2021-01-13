@@ -698,8 +698,9 @@ form{
         opacity: 0.8;
 }
 .menu__img{
-    width: fit-content;
+    width: 70%;
     height: 40vh;
+    align-self: center;
     margin-bottom: var(--mb-2);
 }
 .menu__name, .menu__price{
