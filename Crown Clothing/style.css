@@ -97,11 +97,11 @@ nav ul li a {
 
 /*  Products Section */
 .products {
-  margin: 0 auto;
+  /* margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px;  */
 }
 .products-center {
   width: 90vw;
@@ -128,7 +128,6 @@ nav ul li a {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
-  padding: 20px;
 }
 .product-img {
   display: block;
@@ -139,6 +138,7 @@ nav ul li a {
 .product1-img {
   width: 350px;
   height: 260px;
+  object-fit: cover;
   display: block;
   margin: 0 auto;
   border: 1px solid black;
@@ -204,7 +204,7 @@ nav ul li a {
   margin: 0 auto;
   max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
   padding: 20px;
@@ -215,6 +215,7 @@ nav ul li a {
   height: 350px;
   display: block;
   margin: 0 auto;
+  object-fit: cover;
   border: 1px solid black;
 }
 
@@ -238,17 +239,17 @@ nav ul li a {
   grid-row-gap: 2rem;
   margin: 0 auto;
   max-width: 1170px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
   padding: 20px;
 }
 
 .sneakers-items {
-  margin: 0 auto;
+   margin: 0 auto; 
   max-width: 1170px;
-  display: grid;
+   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 2rem; 
   padding: 20px;
 }
 
@@ -258,27 +259,27 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 2rem; 
   padding: 20px;
 }
 
 .women-items {
-  margin: 0 auto;
+   margin: 0 auto; 
   max-width: 1170px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 2rem; 
   padding: 20px;
 }
 
 .men-items {
-  margin: 0 auto;
+   margin: 0 auto; 
   max-width: 1170px;
-  display: grid;
+   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 2rem; 
   padding: 20px;
 }
 
