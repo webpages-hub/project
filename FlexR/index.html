@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link
     href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet"
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="css/nexflix.css">
     <title>FlexR- watch movies online</title>
 </head>
-<body id="home">
+<body>
     <a href="#" class="scrolltop" id="scroll-top">
         <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
@@ -20,16 +21,17 @@
 
         <nav class="nav bd-container">
               
-              <h1 class="logo">FlexR</h1>
+              <h1 class="logo">FlexR TV</h1>
             
         <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
             <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
             <li class="nav__item"><a href="#categories" class="nav__link">Categories</a></li>
             <li class="nav__item"><a href="#highlights" class="nav__link">Highlights</a></li>
-            <li class="nav__item"><a href='#' class="nav__link">Offers</a></li>
+            <li class="nav__item"><a href='#' class="nav__link">Downloads</a></li>
         </ul>
     </div>
+   
         <div class="nav__toggle" id="nav-toggle">
             <i class="bx bx-menu"></i>
     </div>
@@ -38,6 +40,7 @@
      
 </header>
 
+<section class="home" id="home">
 <div class="first-div">
     <div class="text">
         
@@ -45,15 +48,16 @@
         <button class="text__button">QUALITY HD EVERYDAY</button></p>
        </div>
 </div>
-
-
+</section>
 
      <section class="category__section" id="categories">
         <h2>Movie Categories</h2>
         <div class="all__categories">
          
+            
+            <div class="main-carousel" data-flickity='{"wrapAround":true, "autoPlay":true}'>
              
-             <div class="category__container">
+             <div class="carousel-cell">
              <div class="category">
                  <h3>Action</h3>
                  <img class="category__img" src="img/chantal-garnier-8v10hx6SGy8-unsplash.jpg" alt="film-cover">
@@ -61,7 +65,9 @@
                     <a href="trending.html">GO TO CATEGORY</a>
                 </div>
              </div>
-     
+            </div>
+       
+            <div class="carousel-cell">
             <div class="category">
                 <h3>Triller</h3>
                 <img class="category__img" src="img/note-thanun-aM8PRGU2xig-unsplash.jpg" alt="film-cover">
@@ -69,7 +75,10 @@
                     <a href="trending.html">GO TO CATEGORY</a>
                 </div>
             </div>
+            </div>
 
+        
+         <div class="carousel-cell">
         <div class="category">
             <h3>Romance</h3>
             <img class="category__img" src="img/sindy-sussengut-32M4RSt-1S4-unsplash.jpg" alt="film-cover">
@@ -77,7 +86,10 @@
                 <a href="trending.html">GO TO CATEGORY</a>
             </div>
         </div>
+        </div>
 
+
+        <div class="carousel-cell">
         <div class="category">
             <h3>Cartoon</h3>
             <img class="category__img" src="img/dan-cristian-padure-9I2W5-7Kp4k-unsplash.jpg" alt="film-cover">
@@ -85,7 +97,9 @@
                 <a href="trending.html">GO TO CATEGORY</a>
             </div>
         </div>
+        </div>
 
+        <div class="carousel-cell">
         <div class="category">
             <h3>Sci-Fiction</h3>
             <img class="category__img" src="img/the-blowup-Ttlv0NHu4Xc-unsplash.jpg" alt="film-cover">
@@ -93,8 +107,9 @@
                 <a href="trending.html">GO TO CATEGORY</a>
             </div>
         </div>
+        </div>
  
-
+        <div class="carousel-cell">
         <div class="category">
             <h3>Comedy</h3>
             <img class="category__img" src="img/nastya-dulhiier-wbOHFEsOaUg-unsplash.jpg" alt="film-cover">
@@ -102,7 +117,10 @@
                 <a href="trending.html">GO TO CATEGORY</a>
             </div>
         </div>
+        </div>
 
+
+        <div class="carousel-cell">
         <div class="category">
             <h3>Traditions</h3>
             <img class="category__img" src="img/alain-bonnardeaux-okfyXEVXsXU-unsplash.jpg" alt="film-cover">
@@ -110,8 +128,10 @@
                 <a href="trending.html">GO TO CATEGORY</a>
             </div>
         </div>
+        </div>
 
 
+        <div class="carousel-cell">
         <div class="category">
             <h3>History</h3>
             <img class="category__img" src="img/diana-fernandes-bX6f0-_d_RQ-unsplash.jpg" alt="film-cover">
@@ -119,7 +139,9 @@
                 <a href="trending.html">GO TO CATEGORY</a>
             </div>
         </div>
-
+        </div>
+        .......
+</div>
 </div>
      </section>
        
@@ -128,7 +150,7 @@
      
     
     <section id="highlights">
-        <h2>Highlights</h2>
+        <h2>Highlights 2021</h2>
         <div class="all__container">
         <div class="trending__container">
        
@@ -179,5 +201,6 @@
     </footer>
 
     <script src="js/nexflix.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

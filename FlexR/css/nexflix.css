@@ -69,7 +69,7 @@ ul{
         width: 100%;
         padding: 1.5rem 0 1rem;
         text-align: center;
-        background-color: #000;
+        background-color:  rgb(29, 28, 28);
         transition: .4s;
         box-shadow: 0 4px 4px rgba(0,0,0,.1);
         border-radius: 0 0 1rem 1rem;
@@ -101,10 +101,10 @@ ul{
  }
  .active-link{
     text-decoration: overline underline;
-    color: rgba(192,192,192) ;
+    color: rgba(192,192,192);
  }
  .scroll-header{
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0,0,0);
 }
 .scrolltop{
     position: fixed;
@@ -241,6 +241,9 @@ h2,h3{
 .trending:hover{
     opacity: 0.7;
 }
+#highlights{
+    margin-top: 4%;
+}
 #highlights h2{
     font-style: oblique;
     font-family: "Mulish", serif;
@@ -290,8 +293,10 @@ h2,h3{
     opacity: 1;
     visibility: visible;
   }
+  /* CATEGORY SECTION STYLING */
   .category__section{
-    margin-top: 3%;
+    margin-top: 5%;
+    background-color: rgba(71,71,71,.2);
   }
   .category__section h2{
     font-style: oblique;
@@ -305,10 +310,10 @@ h2,h3{
       height: 30vh;
       object-fit: cover;
       box-sizing: border-box;
-  }
+  } 
   .category:hover{
       transition: .4s; 
-      transform: scale(1.06);
+      transform: scale(1.03);
       overflow: hidden;
       opacity: 0.8;
   }
@@ -318,28 +323,20 @@ h2,h3{
     opacity: 1;
     visibility: visible;
   }
-  .category__container{
-    display: grid;
-    width: 90%;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 2rem;
-    border: 1px solid rgba(71,71,71);
-    background-color: rgba(71,71,71,.2);
-    border-radius: 5px;
-    padding: 2%;
-    margin-bottom: 3%;
+  .carousel-cell{
+      margin-right: 4%;
   }
   .category{
     position: relative;
+    width: 30vh;
     border-radius: 10px;
-    margin: 1%;
+    margin: 1;
     overflow: hidden;
     text-align: center;
-    border: 1px ridge;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(71,71,71);
+    box-shadow: 3px 4px 5px rgb(71, 67, 67);
     padding: 1%;
-  }
+  } 
   .category a{
       color: #fff;
       font-family: "Baloo Da 2", serif;
@@ -479,6 +476,9 @@ h2,h3{
         display: block;
         animation: animateWave 5000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
         transform-origin: bottom;
+    }
+    .carousel-cell::before{
+        display: block;
     }
     @keyframes animateWave {
         0% {
