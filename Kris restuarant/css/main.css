@@ -700,7 +700,8 @@ form{
         opacity: 0.8;
 }
 .menu__img{
-    width: cover;
+    width: 70%;
+    object-fit:fill;
     height: 40vh;
     align-self: center;
     margin-bottom: var(--mb-2);
