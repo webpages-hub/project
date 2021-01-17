@@ -701,7 +701,7 @@ form{
 }
 .menu__img{
     width: 70%;
-    object-fit:fill;
+    object-fit: fill;
     height: 40vh;
     align-self: center;
     margin-bottom: var(--mb-2);
