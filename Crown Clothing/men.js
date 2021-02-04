@@ -2,7 +2,7 @@
 let cartsBtn = document.querySelectorAll('.cart-btn');
 
 let Allproducts = [
-  {
+    { 
     name: 'Camo Down Vest',
     price: 325,
     tag: 'camo-vest',

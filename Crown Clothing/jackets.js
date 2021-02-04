@@ -23,7 +23,7 @@ let Allproducts = [
    {
    name: 'Brown Shearling',
    price: 165,
-   tag: 'brown-trench',
+   tag: 'brown-shearling',
    inCart: 0
    },
    {
