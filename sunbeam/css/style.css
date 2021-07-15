@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    
+}
+ul{
+    
+}
+li{
+    text-transform: capitalize;
+    list-style: none;
+    color: rgba(256, 256, 256, .6)
+}
+li:hover{
+    color:rgba(242, 217, 132, 1);
+}
+.firstSection{
+    background: url(../img/hero-section.png) no-repeat;
+    background-size: cover;
+}
+.subSection{
+    color: #fff;
+    text-align: center;
+    padding: 10% 15%;
+}
+.subSection>p{
+    text-align: center;
+}
+.textColor{
+    color: rgba(242, 217, 132, 1);
+}
+.schd{
+    color: rgba(242, 217, 132, 1);
+    border: 1px solid rgba(242, 217, 132, 1);
+    border-radius: 5px;
+    padding: 1% 4%;
+    font-size: 100%;
+}
+@media screen and (min-width: 768px){
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+}
+@media screen and (min-width: 960px){
+header{
+    padding: 3%;
+}
+    .logo{
+    width: 10%;
+}
+li{
+    margin: 5%;
+    font-size: 100%;
+}
+}
