@@ -43,6 +43,36 @@ li:hover{
     padding: 1% 4%;
     font-size: 100%;
 }
+.firstButton{
+    background: rgba(242, 217, 132, 1);
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.secondH{
+    text-transform: capitalize;
+}
+.firstP{
+    
+}
+.flexP{
+    display: flex;
+    flex-direction: column;
+    padding-right: 7%;
+}
+.figures p:nth-child(1){
+    border-right: 1px solid rgba(256, 256, 256, .5);
+}
+.figures p:nth-child(2){
+    border-right: 1px solid rgba(256, 256, 256, .5);
+    padding-right: 30%;
+}
+.figures{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(29, 27, 27, 0.5);
+}
+
 @media screen and (min-width: 768px){
     header{
     display: flex;
@@ -66,5 +96,20 @@ header{
 li{
     margin: 5%;
     font-size: 100%;
+}
+.firstButton{
+    padding: 2%;
+    margin-top: 5%;
+}
+.secondH{
+    font-size: 300%;
+}
+.num{
+    font-size: 250%;
+}
+.figures{
+    margin-top: 25%;
+    border-radius: 5px;
+    padding: 0.5%;
 }
 }
