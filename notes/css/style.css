@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Slab", serif;
+}
+/* .note__wrapper{
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.single__note{
+    border: 1px solid #a52a2a;
+    box-shadow: 3px 5px 7px rgb(169,169,169);
+    background-color:#800000;
+    color: #fff;
+    border-radius: 5px 10px 5px 10px;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+} */
+.heading{
+    text-align: center;
+    font-variant: small-caps;
+}
+.note__input{
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+}
+textarea{
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+}
+.icon__position{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    z-index: 2;
+    font-size: 130%;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-family: "Mulish", serif;
+}
+.usersNote{
+    width:250px; 
+    height:250px; 
+    font-size:150%;
+    padding:25px; 
+    margin-top:15px; 
+    overflow:hidden; 
+    box-shadow:4px 3px 6px rgba(71,71,71,.5);
+}
+.deteleNote{
+     position:absolute; 
+     right:0; 
+     padding:15px;
+     
+}
+@media screen and (min-width: 768px){
+    .icon__position{
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem; 
+}
+}
