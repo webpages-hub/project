@@ -51,6 +51,7 @@ function getNotes(){
 
     //REMOVE FROM DOM 
     a.addEventListener('click', removeNote);
+    
     });
         })
 }
@@ -67,7 +68,7 @@ function displayNote(){
     a.className = 'deleteNote';
     a.innerHTML = `<i class="fa fa-times" aria-hidden="true"></i> <br>`;
 
-    node1.innerHTML += noteValue;
+    node1.textContent += noteValue;
     updateStorage(noteValue);
 
     node1.style.transform = rotateNotes();
@@ -89,7 +90,6 @@ function displayNote(){
 
     //REMOVE FROM DOM 
     a.addEventListener('click', removeNote);
-
 }
 
 function rotateNotes(){
@@ -116,7 +116,9 @@ function updateStorage(note){
         else{
            notes = JSON.parse(localStorage.getItem('notes'));
         }
+
          notes.push(note);
+
          localStorage.setItem('notes', JSON.stringify(notes));
 }
 
@@ -126,7 +128,6 @@ function removeNote(e){
         e.target.parentElement.parentElement.parentElement.remove();
 
         removeNotesFromLS(e.target.parentElement.parentElement);
-       
     }
   }
     
@@ -142,8 +143,10 @@ function removeNotesFromLS(noteItem){
 
     
    notes.forEach(function(note, index){
-         note.splice(index, 1);
-        });
+      if(noteItem.textContent === note){
+        notes.splice(index, 1);
+      }  
+   });
    
      
   
