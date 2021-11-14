@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    background: #23252C;
+
+}
+.img{
+    border-radius: 5px;
+    width: 100%;
+}
+.quick-info{
+    margin-top: 10%;
+    text-align: center;
+    line-height: 0;
+}
+.quick-info h3{
+    font-weight: 900;
+    color: #fff;
+}
+.quick-info h6{
+   font-size: 80%;
+    color: #F3BF99;
+}
+.quick-info p{
+    font-size: 75%;
+     color: #fff;
+}
+.buttons{
+    text-align: center;  
+}
+.buttons button{
+     padding: 8px 10px;
+      width: 35%;
+      margin: 3%;
+      outline: none;
+     border-radius: 10px;
+     font-weight: 700;
+}
+.buttons svg{
+    margin-right: 4%;
+}
+.email{
+    background: #fff;
+    color: #000;
+}
+.linkedin{
+     background: #000;
+     color: #fff;
+}
+.about{
+    color: #fff;
+    line-height: 1.5em;
+   text-align: justify;
+   letter-spacing: 4;
+   padding: 3%;
+}
+.interest{
+    color: #fff;
+     line-height: 1.5em;
+   text-align: justify;
+   letter-spacing: 4;
+   padding: 3%;
+}
+.footer{
+    text-align: center;
+    color: silver;
+    border-top: 1px solid grey;
+}
